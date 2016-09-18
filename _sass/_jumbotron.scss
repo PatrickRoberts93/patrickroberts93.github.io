@@ -1,4 +1,6 @@
 .jumbotron {
+  padding-top: 20px;
+  padding-bottom: 10px;
   background: #77C9D4;
   color: #FFF;
   text-align: center;
@@ -9,6 +11,10 @@
   p {
     padding-top: 20px;
     padding-bottom: 10px;
+  }
+
+  .jumbotron__content {
+    max-width: 800px;
   }
 }
 
