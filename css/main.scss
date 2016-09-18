@@ -3,8 +3,14 @@
 ---
 @charset "utf-8";
 
+// Goulburn Speedway Colors //
+$color-orange:     #ff7400;
+$color-black-lt:   #333;
+
+
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Work Sans', sans-serif;
+
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -13,7 +19,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #57BC90;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -26,7 +32,8 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-// Minima also includes a mixin for defining media queries.
+
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -34,6 +41,22 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
 
-// Import partials from the `minima` theme.
-@import "minima";
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "variables",
+        "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap",
+        "../bower_components/font-awesome/scss/font-awesome.scss",
+        "base",
+        "layout",
+        "syntax-highlighting",
+        "jumbotron",
+        "navbar"
+;

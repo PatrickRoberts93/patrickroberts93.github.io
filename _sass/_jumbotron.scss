@@ -1,0 +1,27 @@
+.jumbotron {
+  background: #77C9D4;
+  color: #FFF;
+  text-align: center;
+  background: -webkit-linear-gradient(#77C9D4, #57BC90); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#77C9D4, #57BC90); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#77C9D4, #57BC90); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#77C9D4, #57BC90); /* Standard syntax */
+  p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+.jumbotron__button {
+  font-weight: 600;
+  border: 3px solid #FFF;
+  color: #FFF;
+  &:visited {color: #FFF;}
+  &:hover,
+  &:focus {
+    color: #57BC90;
+    background: #fff;
+    text-decoration: none;
+  }
+
+}
