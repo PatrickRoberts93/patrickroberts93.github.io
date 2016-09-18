@@ -15,7 +15,6 @@
   border: 0px;
   border-radius: 0px;
 
-
   .container-fluid {
     @media screen and (min-width: $grid-float-breakpoint) {
       padding-right: 100px;
@@ -27,13 +26,12 @@
     font-size: 14px;
   }
 
-  li a {
+  .nav li a {
     color: #FFF;
     padding: 1.3em 0.7em;
     &:hover,
     &:focus {
-      background: ccc;
-      color: #FFF;
+      color: #A5A5AF;
     }
   }
 }
