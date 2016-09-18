@@ -1,0 +1,51 @@
+.footer_nav li{
+  list-style: none;
+}
+.footer .social {
+  .social__github{
+    &:hover,
+    &:focus{
+      color: lighten(#FFF,20%);
+    }
+  }
+  .social__linkedin{
+    &:hover,
+    &:focus{
+      color: lighten(#FFF,20%);
+    }
+  }
+  .social__mail{
+    &:hover,
+    &:focus{
+      color: lighten(#FFF,20%);
+    }
+  }
+}
+
+.social {
+  .fa {
+    padding-right: 20px;
+    padding-top: 18px;
+  }
+  .social__github{
+    color: #FFF;
+    &:hover,
+    &:focus {
+      color: darken(#FFF,20%);
+    }
+  }
+  .social__mail{
+      color: #FFF;
+      &:hover,
+      &:focus {
+        color: darken(#FFF,20%);
+      }
+  }
+  .social__linkedin{
+      color: #FFF;
+      &:hover,
+      &:focus {
+        color: darken(#FFF,20%);
+      }
+  }
+}
