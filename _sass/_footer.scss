@@ -7,9 +7,6 @@
   .contact__title {
   }
 }
-.address {
-  padding: 10px 0;
-}
 
 .sponsors__heading{
   @media screen and (max-width: 767px){
@@ -19,4 +16,30 @@
 
 .footernav {
   list-style: none;
+  margin-top: 15px;
+  margin-left: 0px;
+  text-align: center;
+
+  li {
+    padding-bottom: 5px;
+  }
+
+  a {
+  text-decoration: none;
+  color: #FFF;
+  &:hover,
+  &:focus {
+    color: #A5A5AF;
+  }
+}
+
+}
+
+.footer__info {
+  p {
+  padding-top: 20px;
+  text-align: center;
+  color: #FFF;
+  font-weight: 900;
+}
 }

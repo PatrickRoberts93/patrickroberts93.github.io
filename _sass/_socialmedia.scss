@@ -1,7 +1,6 @@
-.footer_nav li{
-  list-style: none;
-}
 .footer .social {
+  padding-left: 20px;
+  text-align: center;
   .social__github{
     &:hover,
     &:focus{
@@ -25,7 +24,7 @@
 .social {
   .fa {
     padding-right: 20px;
-    padding-top: 18px;
+    padding-top: 20px;
   }
   .social__github{
     color: #FFF;
