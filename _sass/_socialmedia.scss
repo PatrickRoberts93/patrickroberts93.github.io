@@ -4,19 +4,19 @@
   .social__github{
     &:hover,
     &:focus{
-      color: lighten(#FFF,20%);
+      color: darken(#FFF,20%);
     }
   }
   .social__linkedin{
     &:hover,
     &:focus{
-      color: lighten(#FFF,20%);
+      color: darken(#FFF,20%);
     }
   }
   .social__mail{
     &:hover,
     &:focus{
-      color: lighten(#FFF,20%);
+      color: darken(#FFF,20%);
     }
   }
 }
@@ -30,21 +30,21 @@
     color: #FFF;
     &:hover,
     &:focus {
-      color: darken(#FFF,20%);
+      color: darken(#FFF,10%);
     }
   }
   .social__mail{
       color: #FFF;
       &:hover,
       &:focus {
-        color: darken(#FFF,20%);
+        color: darken(#FFF,10%);
       }
   }
   .social__linkedin{
       color: #FFF;
       &:hover,
       &:focus {
-        color: darken(#FFF,20%);
+        color: darken(#FFF,10%);
       }
   }
 }

@@ -29,7 +29,7 @@
   color: #FFF;
   &:hover,
   &:focus {
-    color: #A5A5AF;
+    color: darken(#FFF,20%);
   }
 }
 
