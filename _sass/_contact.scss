@@ -1,7 +1,7 @@
-.footer {
+.contact {
   background: #3C3744;
-  padding: 25px;
-  color: #c1c1c1;
+  padding: 40px;
+  color: #FFF;
   img {
     display: block;
     margin: 0 auto;
@@ -11,12 +11,13 @@
   .profile p {
     padding: 20px 0 0 0;
     font-size: 1.25em;
+    text-align: center;
   }
   .details p {
     padding: 0 0 40px 0;
     font-size: 1.25em;
   }
-  h3 {
+  .details h3 {
     font-weight: 600;
     text-transform: uppercase;
     border-bottom: 3px solid #FFF;
@@ -24,5 +25,7 @@
   }
 a{
     padding-bottom: 40px;
-  }
+    color: #FFF;
+    font-weight: 600;
+}
 }

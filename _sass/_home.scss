@@ -1,15 +1,15 @@
 .technologies {
-  padding: 25px 0 25px 0;
+  padding: 40px 0 40px 0;
   text-align: center;
   background: #3ec303;
   color: #FFF;
+  h2 {
+    font-weight: 600;
+  }
   img {
     height: 100px;
     max-width: 100%;
     display: inline;
     margin: 20px 0 10px 0;
-    path {
-      fill: #FFF;
     }
   }
-}
