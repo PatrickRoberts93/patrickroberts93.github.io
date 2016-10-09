@@ -6,15 +6,15 @@
   <body class="{{ page.layout }}">
     {% include header.html %}
     {% include jumbotron.html %}
+    {% include technologies.html %}
       <div class="container-fluid">
         <div class="row">
           {% if page.layout != 'home' %}
           <div class="col-md-12">
             <h1 class="page-title">{{ page.title }}</h1>
           </div>
-          {% include jumbotron.html %}
           {% endif %}
-            <div> 
+            <div>
               {{ content }}
             </div>
         </div>
