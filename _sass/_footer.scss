@@ -1,45 +1,28 @@
 .footer {
   background: #3C3744;
-  padding: 15px;
+  padding: 25px;
   color: #c1c1c1;
-}
-.contact {
-  .contact__title {
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 33.33%;
+    border-radius: 50%;
   }
-}
-
-.sponsors__heading{
-  @media screen and (max-width: 767px){
-    padding-top: 15px;
+  .profile p {
+    padding: 20px 0 0 0;
+    font-size: 1.25em;
   }
-}
-
-.footernav {
-  list-style: none;
-  margin-top: 15px;
-  margin-left: 0px;
-  text-align: center;
-
-  li {
-    padding-bottom: 5px;
+  .details p {
+    padding: 0 0 40px 0;
+    font-size: 1.25em;
   }
-
-  a {
-  text-decoration: none;
-  color: #FFF;
-  &:hover,
-  &:focus {
-    color: darken(#FFF,20%);
+  h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 3px solid #FFF;
+    margin: 0 0 20px 0;
   }
-}
-
-}
-
-.footer__info {
-  p {
-  padding-top: 20px;
-  text-align: center;
-  color: #FFF;
-  font-weight: 900;
-}
+a{
+    padding-bottom: 40px;
+  }
 }

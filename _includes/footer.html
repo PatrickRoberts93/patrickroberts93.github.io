@@ -2,21 +2,21 @@
   <div class="container-fluid">
   <div class="row">
     <div class="col-md-6 col-sm-6 col-xs-12">
-              {% include socialmedia.html %}
-              <ul class="footernav">
-                <li><a href="{{ "/" | prepend: site.baseurl }}">Home<span class="sr-only">(current)</span></a></li>
-                <li><a href="{{ "/portfolio" | prepend: site.baseurl }}">Portfolio</a></li>
-                <li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
-                <li><a href="{{ "/contact" | prepend: site.baseurl }}">Contact</a></li>
-              </ul>
+      <div class="profile">
+      <img src="/img/profile-placeholder.jpg" alt="Profile Picture"/>
+      <p>If you would like to discuss a potentional career opportunity, I'd love to hear from you. Check out my <a href="https://www.github.com/PatrickRoberts93">Github</a> and <a href="https://www.linkedin.com/in/patrickroberts93">Linkedin</a> and then get in touch via your preferred contact method.</p>
+    </div>
     </div>
     <div class="col-md-6 col-sm-6 col-xs-12">
-      <div class="footer__info">
-        <p>&copy; 2016</p>
-        <p>All Rights Reserved</p>
-      <div>
+      <div class="details">
+      <h3>Email</h3>
+      <p><a href="mailto:admin@patrickroberts.io">admin@patrickroberts.io</a></p>
+      <h3>Phone</h3>
+      <p>0423 082 781</p>
+    </div>
+      {% include socialmedia.html %}
+    </div>
     </div>
   </div>
-</div>
 
 </footer>
