@@ -1,31 +1,13 @@
-.home__about {
-  .img-responsive {
-  border-radius: 50%;
-  margin: 0 auto;
-  max-width: 33.33%;
-  }
-  p {
-    padding-top: 30px;
-  }
-}
-
-
-.home__features {
-  list-style: none;
-  margin-left: 0px;
-  h2 {
-    padding-left: 5px;
-    font-weight: 600;
-  }
-  .fa-html5 {
-    margin-right: 5px;
-    padding-left: 5px;
-  }
-  .fa {
-    vertical-align: middle;
-    padding-right: 8px;
-  }
-  li {
-    padding-bottom: 15px;
+.technologies {
+  text-align: center;
+  background: #FFF;
+  img {
+    height: 128px;
+    max-width: 100%;
+    display: inline;
+    margin: 20px 0 10px 0;
+    path {
+      fill: #FFF;
+    }
   }
 }
