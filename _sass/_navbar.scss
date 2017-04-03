@@ -1,7 +1,7 @@
 .navbar {
 
   margin-bottom: 0px;
-  background: #0092D7;
+  background: #4592CC;
   border: 0px;
   border-radius: 0px;
 
@@ -23,4 +23,16 @@
       color: darken(#FFF,10%);
     }
   }
+
+  .navbar-toggle {
+    border-color: #FFF;
+    &:hover,
+    &:focus {
+      background-color: #4592CC;
+    }
+    .icon-bar {
+      background-color: #FFF;
+    }
+  }
+
 }
