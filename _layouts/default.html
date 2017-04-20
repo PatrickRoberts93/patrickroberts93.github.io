@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  {% include head.html %}
-
+{% include head.html %}
   <body class="{{ page.layout }}">
-    {% include header.html %}
-    {% include jumbotron.html %}
-    {% include technologies.html %}
-    {% include contact.html %}
-  
+  {% include navbar.html %}
+    <div class="page-content">
+        {{ content }}
+    </div>
+  {% include contact.html %}
   </body>
-
 </html>

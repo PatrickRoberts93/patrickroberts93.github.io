@@ -183,9 +183,6 @@ pre {
     }
 }
 
-.page-title {
-  border-bottom: 3px solid $color-black-lt;
-  padding-bottom: 5px;
-  margin-bottom: 40px;
-  font-weight: 700;
+.container-fluid {
+  max-width: 1200px;
 }
